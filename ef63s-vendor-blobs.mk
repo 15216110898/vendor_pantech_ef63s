@@ -160,7 +160,6 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-	vendor/pantech/ef63s/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \

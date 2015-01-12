@@ -394,6 +394,7 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/lib/libchromatix_s5k6b2yx_default_video.so:system/lib/libchromatix_s5k6b2yx_default_video.so\
 	vendor/pantech/ef63s/proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so\
 	vendor/pantech/ef63s/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so\
+	vendor/pantech/ef63s/proprietary/lib/libchromatix_s5k6b2yx_vt_common.so:system/lib/libchromatix_s5k6b2yx_vt_common.so
 	vendor/pantech/ef63s/proprietary/lib/libmmcamera_rohm_eeprom.so:system/lib/libmmcamera_rohm_eeprom.so\
 	vendor/pantech/ef63s/proprietary/lib/libmmcamera_rumba_sa_eeprom.so:system/lib/libmmcamera_rumba_sa_eeprom.so\
 	vendor/pantech/ef63s/proprietary/lib/libmmcamera_s5k6b2yx.so:system/lib/libmmcamera_s5k6b2yx.so\

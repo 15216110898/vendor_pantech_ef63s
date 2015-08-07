@@ -411,4 +411,31 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/firmware/libpn547_fw_platform.so:system/vendor/firmware/libpn547_fw_platform.so \
 	vendor/pantech/ef63s/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
 	vendor/pantech/ef63s/proprietary/vendor/firmware/libpn547_pku.so:system/vendor/firmware/libpn547_pku.so \
-	vendor/pantech/ef63s/proprietary/vendor/firmware/TestInput.txt:system/vendor/firmware/TestInput.txt 
+	vendor/pantech/ef63s/proprietary/vendor/firmware/TestInput.txt:system/vendor/firmware/TestInput.txt
+
+PRODUCT_COPY_FILES += \
+	vendor/pantech/ef63s/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libchromatix_imx214_video_uhd.so:system/vendor/lib/libchromatix_imx214_video_uhd.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libmmgesture-bus2.so:system/vendor/lib/libmmgesture-bus2.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/libdspCV_skel.so:system/vendor/lib/rfsa/libdspCV_skel.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/libfastcvadsp.so:system/vendor/lib/rfsa/libfastcvadsp.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/libfastcvadsp_skel.so:system/vendor/lib/rfsa/libfastcvadsp_skel.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/libscveT2T_skel.so:system/vendor/lib/rfsa/libscveT2T_skel.so 

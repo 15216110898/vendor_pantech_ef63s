@@ -435,7 +435,7 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/libdspCV_skel.so:system/vendor/lib/rfsa/libdspCV_skel.so \
-	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/libfastcvadsp.so:system/vendor/lib/rfsa/libfastcvadsp.so \
-	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/libfastcvadsp_skel.so:system/vendor/lib/rfsa/libfastcvadsp_skel.so \
-	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/libscveT2T_skel.so:system/vendor/lib/rfsa/libscveT2T_skel.so 
+	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so 

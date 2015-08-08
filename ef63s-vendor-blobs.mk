@@ -213,6 +213,7 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+	vendor/pantech/ef63s/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libSSEPKCS11.so:system/vendor/lib/libSSEPKCS11.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \

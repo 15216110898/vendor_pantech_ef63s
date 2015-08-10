@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/pantech/ef63s/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
 	vendor/pantech/ef63s/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+	vendor/pantech/ef63s/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \

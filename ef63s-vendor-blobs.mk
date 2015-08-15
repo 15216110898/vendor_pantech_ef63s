@@ -441,3 +441,12 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so 
+
+PRODUCT_COPY_FILES += \
+	vendor/pantech/ef63s/proprietary/etc/firmware-ef63s/venus.b01:system/etc/firmware-ef63s/venus.b01 \
+	vendor/pantech/ef63s/proprietary/etc/firmware-ef63s/venus.mbn:system/etc/firmware-ef63s/venus.mbn \
+	vendor/pantech/ef63s/proprietary/etc/firmware-ef63s/venus.mdt:system/etc/firmware-ef63s/venus.mdt \
+	vendor/pantech/ef63s/proprietary/etc/firmware-ef63k/venus.b01:system/etc/firmware-ef63k/venus.b01 \
+	vendor/pantech/ef63s/proprietary/etc/firmware-ef63k/venus.mbn:system/etc/firmware-ef63k/venus.mbn \
+	vendor/pantech/ef63s/proprietary/etc/firmware-ef63k/venus.mdt:system/etc/firmware-ef63k/venus.mdt 
+

@@ -22,13 +22,9 @@ PRODUCT_COPY_FILES += \
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
-	vendor/pantech/ef63s/proprietary/bin/mpdecision:system/bin/mpdecision \
-	vendor/pantech/ef63s/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
-	vendor/pantech/ef63s/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
 	vendor/pantech/ef63s/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/pantech/ef63s/proprietary/bin/install-recovery.sh:system/bin/install-recovery.sh \
 	vendor/pantech/ef63s/proprietary/bin/location-mq:system/bin/location-mq \
-	vendor/pantech/ef63s/proprietary/bin/prlimit:system/bin/prlimit \
 	vendor/pantech/ef63s/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
 	vendor/pantech/ef63s/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
 	vendor/pantech/ef63s/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -202,7 +198,6 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/pantech/ef63s/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
 	vendor/pantech/ef63s/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-	vendor/pantech/ef63s/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/pantech/ef63s/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/pantech/ef63s/proprietary/bin/efsks:system/bin/efsks \
 	vendor/pantech/ef63s/proprietary/bin/ks:system/bin/ks \
@@ -238,7 +233,6 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	vendor/pantech/ef63s/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	vendor/pantech/ef63s/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-	vendor/pantech/ef63s/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb\
 	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
 	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -417,6 +411,21 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/lib/libmmcamera_rohm_eeprom.so:system/lib/libmmcamera_rohm_eeprom.so\
 	vendor/pantech/ef63s/proprietary/lib/libmmcamera_rumba_sa_eeprom.so:system/lib/libmmcamera_rumba_sa_eeprom.so\
 	vendor/pantech/ef63s/proprietary/lib/libmmcamera_s5k6b2yx.so:system/lib/libmmcamera_s5k6b2yx.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_access_nand.so:system/lib/libsky_access_nand.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_aprlib.so:system/lib/libsky_aprlib.so:\
+	vendor/pantech/ef63s/proprietary/lib/libsky_avclog.so:system/lib/libsky_avclog.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_bluetooth.so:system/lib/libsky_bluetooth.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_common.so:system/lib/libsky_common.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_ctrl_drv.so:system/lib/libsky_ctrl_drv.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_dload.so:system/lib/libsky_dload.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_img_verify.so:system/lib/libsky_img_verify.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_md5.so:system/lib/libsky_md5.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_rflog.so:system/lib/libsky_rflog.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_rftest.so:system/lib/libsky_rftest.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_station.so:system/lib/libsky_station.so\
+	vendor/pantech/ef63s/proprietary/lib/libsky_wifi.so:system/lib/libsky_wifi.so\
+	vendor/pantech/ef63s/proprietary/lib/libskymotioncore.so:system/lib/libskymotioncore.so\
+	vendor/pantech/ef63s/proprietary/lib/libskyreset.so:system/lib/libskyreset.so
 	
 	
 PRODUCT_COPY_FILES += \

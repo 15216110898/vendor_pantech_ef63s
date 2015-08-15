@@ -26,6 +26,13 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
 	vendor/pantech/ef63s/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
 	vendor/pantech/ef63s/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+	vendor/pantech/ef63s/proprietary/bin/install-recovery.sh:system/bin/install-recovery.sh \
+	vendor/pantech/ef63s/proprietary/bin/location-mq:system/bin/location-mq \
+	vendor/pantech/ef63s/proprietary/bin/prlimit:system/bin/prlimit \
+	vendor/pantech/ef63s/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
+	vendor/pantech/ef63s/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
+	vendor/pantech/ef63s/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+	vendor/pantech/ef63s/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
@@ -239,6 +246,9 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
 	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
 	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+	vendor/pantech/ef63s/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+	vendor/pantech/ef63s/proprietary/etc/cne/NsrmConfiguration.xml:system/etc/cne/NsrmConfiguration.xml \
+	vendor/pantech/ef63s/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
 	vendor/pantech/ef63s/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so\

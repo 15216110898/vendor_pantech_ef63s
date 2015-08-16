@@ -233,13 +233,6 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	vendor/pantech/ef63s/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	vendor/pantech/ef63s/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb\
-	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb\
-	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-	vendor/pantech/ef63s/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
 	vendor/pantech/ef63s/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
 	vendor/pantech/ef63s/proprietary/etc/cne/NsrmConfiguration.xml:system/etc/cne/NsrmConfiguration.xml \
 	vendor/pantech/ef63s/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \

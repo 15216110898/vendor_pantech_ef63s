@@ -29,6 +29,9 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
 	vendor/pantech/ef63s/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
 	vendor/pantech/ef63s/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+	vendor/pantech/ef63s/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
+	vendor/pantech/ef63s/proprietary/bin/quipc_main:system/bin/quipc_main \
+	vendor/pantech/ef63s/proprietary/bin/shbtnvtool:system/bin/shbtnvtool \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \

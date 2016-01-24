@@ -466,3 +466,15 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/etc/firmware-ef63k/venus.mbn:system/etc/firmware-ef63k/venus.mbn \
 	vendor/pantech/ef63s/proprietary/etc/firmware-ef63k/venus.mdt:system/etc/firmware-ef63k/venus.mdt 
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63s/proprietary/app,system/app)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63s/proprietary/bin,system/bin)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63s/proprietary/lib,system/lib)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63s/proprietary/etc,system/etc)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63s/proprietary/framework,system/framework)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63s/proprietary/vendor,system/vendor)
+

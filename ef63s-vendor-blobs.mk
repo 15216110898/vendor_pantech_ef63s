@@ -213,7 +213,6 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/pantech/ef63s/proprietary/bin/qmiproxy:system/bin/qmiproxy \
 	vendor/pantech/ef63s/proprietary/bin/rild:system/bin/rild \
-	vendor/pantech/ef63s/proprietary/bin/cnd:system/bin/cnd \
 	vendor/pantech/ef63s/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/pantech/ef63s/proprietary/bin/ssr_diag:system/bin/ssr_diag \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \

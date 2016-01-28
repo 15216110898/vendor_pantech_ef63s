@@ -227,8 +227,9 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	vendor/pantech/ef63s/proprietary/lib/libril.so:system/lib/libril.so \
-	
+	vendor/pantech/ef63s/proprietary/lib/libbinder.so:system/lib/libbinder.so \
+	vendor/pantech/ef63s/proprietary/lib/libsymbols.so:system/lib/libsymbols.so 
+
 PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/pantech/ef63s/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -252,14 +253,14 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	vendor/pantech/ef63s/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+	vendor/pantech/ef63s/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
 	vendor/pantech/ef63s/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
 	vendor/pantech/ef63s/proprietary/lib/libsky_rawdata.so:system/lib/libsky_rawdata.so \
 	vendor/pantech/ef63s/proprietary/lib/libskytestclient.so:system/lib/libskytestclient.so \
 	vendor/pantech/ef63s/proprietary/media/vega_usb.iso:system/media/vega_usb.iso \
 	vendor/pantech/ef63s/proprietary/lib/libsnsutils.so:system/lib/libsnsutils.so\
 	vendor/pantech/ef63s/proprietary/lib/libqctdspsreg.so:system/lib/libqctdspsreg.so\
-	vendor/pantech/ef63s/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-	
+	vendor/pantech/ef63s/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so 
 
 PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
@@ -465,6 +466,9 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/etc/firmware-ef63k/venus.b01:system/etc/firmware-ef63k/venus.b01 \
 	vendor/pantech/ef63s/proprietary/etc/firmware-ef63k/venus.mbn:system/etc/firmware-ef63k/venus.mbn \
 	vendor/pantech/ef63s/proprietary/etc/firmware-ef63k/venus.mdt:system/etc/firmware-ef63k/venus.mdt 
+
+PRODUCT_COPY_FILES += \
+	vendor/pantech/ef63s/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar 
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/pantech/ef63s/proprietary/app,system/app)
 

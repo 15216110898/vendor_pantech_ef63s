@@ -27,8 +27,6 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/bin/location-mq:system/bin/location-mq \
 	vendor/pantech/ef63s/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
 	vendor/pantech/ef63s/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
-	vendor/pantech/ef63s/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-	vendor/pantech/ef63s/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
 	vendor/pantech/ef63s/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
 	vendor/pantech/ef63s/proprietary/bin/quipc_main:system/bin/quipc_main \
 	vendor/pantech/ef63s/proprietary/bin/shbtnvtool:system/bin/shbtnvtool \
@@ -231,7 +229,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-	vendor/pantech/ef63s/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/pantech/ef63s/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
 	vendor/pantech/ef63s/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	vendor/pantech/ef63s/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -247,13 +244,11 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libyas530.so:system/vendor/lib/libyas530.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
-	vendor/pantech/ef63s/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	vendor/pantech/ef63s/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/pantech/ef63s/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-	vendor/pantech/ef63s/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
 	vendor/pantech/ef63s/proprietary/lib/libsky_rawdata.so:system/lib/libsky_rawdata.so \
 	vendor/pantech/ef63s/proprietary/lib/libskytestclient.so:system/lib/libskytestclient.so \
 	vendor/pantech/ef63s/proprietary/media/vega_usb.iso:system/media/vega_usb.iso \
@@ -440,7 +435,6 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libchromatix_imx214_video_uhd.so:system/vendor/lib/libchromatix_imx214_video_uhd.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-	vendor/pantech/ef63s/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libmmgesture-bus2.so:system/vendor/lib/libmmgesture-bus2.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
@@ -449,8 +443,6 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-	vendor/pantech/ef63s/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-	vendor/pantech/ef63s/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/pantech/ef63s/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
